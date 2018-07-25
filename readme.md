@@ -1,4 +1,4 @@
-#1 bh3_wiki
+# bh3_wiki
 > powered by 情报姬微信小程序小组
 readme抄了隔壁前端组的，哎嘿嘿依旧热爱崩坏三，用爱发电的团队🤣
 
