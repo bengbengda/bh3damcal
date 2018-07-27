@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view >
+
+  <view class='flex'>
+       <view class='taozhuang1'>套装A </view>
+       <view class='taozhuang2'>套装B</view>
+ </view>
+
+   <view class='flex'>
+     <view class='bianliang1'>
+       <view style='font-size:32rpx;' class='variable'>人物等级 <input class='value'  type='text' ></input></view>
+      <view class='variable'>会心 <input class='value' type='text' ></input></view>
+       <view class='variable'>攻击力 <input class='value' type='text' ></input></view>
+        <view  class='variable'><text>技能和装\n备带来的\n暴击率 </text><input style='height:110rpx;' class='value' type='text' ></input></view>
+        
+         <image class='logo' src='../../pages/index/img/logo.png'></image>
+     </view>
+         <view  class='bianliang2'>
+            <view class='variable'>爆伤词缀 <input class='value' type='text' ></input></view>
+      <view class='variable'>会心词缀 <input class='value' type='text' ></input></view>
+       <view class='variable'><text> 攻击力\n词缀</text> <input class='value' style='height:85rpx;' type='text' ></input></view>
+        <view class='variable' style='margin-top:10rpx;'><text> 装备和技\n能带来的\n爆伤 </text><input class='value' style='height:110rpx;' type='text' ></input></view>
+         <image class='logo2' src='../../pages/index/img/logo.png'></image>
+      </view>    
+  </view>
+      <view class='output'>
+           <view class='printvalue'> 输出:<input class='printback' disabled=''></input></view>  
+           <!-- 该view行是输出的数据行，记得数据绑定，我禁用了这行文本框 -->
+      </view>
+</view>

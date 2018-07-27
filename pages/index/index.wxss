@@ -1,0 +1,104 @@
+/**index.wxss**/
+
+.flex{
+
+  display: flex;
+}
+
+.taozhuang1{
+ margin-top: 80rpx;
+ width: 125rpx;
+height: 38.2rpx;
+margin-left: 135rpx;
+font-size: 38.2rpx;
+color: #343a70;
+font-family: "微软雅黑";
+font-weight: bold;
+}
+
+.taozhuang2{
+margin-top: 80rpx;
+margin-left: 270rpx;
+font-size: 38.2rpx;
+color: #343a70;
+font-family: "微软雅黑";
+font-weight: bold;
+}
+
+.bianliang1{
+
+  margin-top: 20rpx;
+  margin-left: 17.5rpx;
+ border-radius: 10rpx;
+ width: 350rpx; 
+ height:520rpx;
+  background-color: #e7e4fa;
+  opacity: 0.85;
+}
+.bianliang2{
+
+  margin-top: 20rpx;
+  margin-left: 17.5rpx;
+ border-radius: 10rpx;
+ width: 350rpx; 
+ height:520rpx;
+  background-color: #e7e4fa;
+  opacity: 0.85;
+}
+
+.variable{font-size: 32rpx;
+  
+  margin-top: 30rpx;
+  display: flex;
+  float: right;
+   align-items:Center;
+   color: #292e5a;
+   font-weight: bold;
+}
+
+.value{width: 180rpx;
+      height: 75rpx;
+margin-right: 15rpx;
+margin-left: 10rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  opacity: 0.85;
+}
+
+.logo{
+  width: 90rpx;
+  height: 30rpx;
+  float: left;
+ 
+}
+.logo2{
+    width: 90rpx;
+  height: 30rpx;
+
+float: right ;
+
+
+}
+
+.output{
+  margin-left: 17.5rpx;
+  margin-top: 100rpx;
+  width: 717.5rpx;
+  border-radius: 25rpx;
+  height: 250rpx;
+  background-color: #e7e4fa;
+  opacity: 0.85;
+  
+}
+
+.printvalue{float: left;
+  margin-left: 20rpx;
+margin-top: 30rpx;
+   color: #292e5a;
+   font-weight: bold;
+display: flex;
+}
+.printback{
+  margin-left: 20rpx;
+    display: flex;
+}

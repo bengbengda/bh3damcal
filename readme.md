@@ -1,30 +1,19 @@
 # 情报姬的第三个微信小程序
 > powered by 情报姬微信小程序小组
-readme抄了隔壁前端组的，哎嘿嘿依旧热爱崩坏三，用爱发电的团队🤣
+readme果然还是得自己写一份🤣
 
 ## 使用说明
-
-clone该项目到本地后，首先确定自己的电脑已经配置好node环境，如果没有配置好的成员请先配置好`node, npm, cnpm, vue`后再进行接下来的操作，配置vue环境可以参考这个教程 [菜鸟教程](https://www.runoob.com/vue2/vue-install.html)。
-
-在确保node环境配置无误后，打开终端切换到项目文件夹之后运行下面的代码，下载项目所用到的模组文件。
-
-```shell
-cnpm install
-```
-
-下载完文件后就可以运行项目了，输入一下代码，项目将会在本地8080端口运行
-
-```shell
-cnpm run dev
-```
-如果看不懂没关系 反正大家都是windows 用GitHubDeskTop也是超级方便！(安装包群文件有) 登陆账号后clone下来，将文件夹做为项目地址，做完后再push上传就成了
+clone该项目到本地,完成任务后push上传就成 咱没那多规范 完成就行
 代码规范   等同于前端的~因为小程序也是个h5嘛
-## 前端代码规范
-### 基本规范
-本项目代码统一按照该代码规范进行编码，请大家仔细阅读该代码规范 [代码规范](https://guide.aotu.io/docs/index.html)
-### 规范补充
-
+## 有些方法要用到微信API
+可以看下之前的蛋池小程序代码体会区别
+比如 发起服务器请求
+```wx.request(OBJECT)```
+[微信API]https://developers.weixin.qq.com/miniprogram/dev/api/network-request.html#wxrequestobject
+除此之外显示消息提示框什么的也要采用微信API 如果不会亦可从群文件里的UI库获取素材以及查看使用方法
+请务必阅读API 还是有些地方和H5开发不一样的。
+### 关于开发工具
+为了调试方便请使用微信web开发者工具进行编写。在此之前请先注册微信个人开发者拿到appid 对project.config.json内appid里数值修改后即可进入项目进行开发
 #### 代码规范
 
 1. 代码缩进统一使用2个空格，[原因](https://github.com/o2team/guide/issues/3)。
-2. 不是特殊原因，禁止直接将css写在html标签上。

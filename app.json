@@ -1,0 +1,14 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3d3a65",
+    "navigationBarTitleText": "情报姬的伤害计算器",
+    "navigationBarTextStyle":"white"
+    
+  }
+}
